@@ -1,5 +1,9 @@
 # Spyscope
 
+[![Clojars Project](https://img.shields.io/clojars/v/spyscope.svg)](https://clojars.org/spyscope)
+[![cljdoc badge](https://cljdoc.org/badge/spyscope)](https://cljdoc.org/d/spyscope)
+[![CircleCI](https://circleci.com/gh/spyscope.svg?style=svg)](https://circleci.com/gh/spyscope)
+
 A Clojure(Script) library designed to make it easy to debug single- and multi-threaded applications.
 
 ## Installation
