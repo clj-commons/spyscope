@@ -1,20 +1,22 @@
-(defproject spyscope "0.1.7-SNAPSHOT"
+(defproject clj-commons/spyscope "0.1.7-SNAPSHOT"
   :description "Trace-oriented debugging tools for Clojure(Script)"
 
   :url "http://github.com/dgrnbrg/spyscope"
 
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :deploy-repositories [["clojars" {:url "https://repo.clojars.org"
+                                    :username :env/clojars_username
+                                    :password :env/clojars_password
+                                    :sign-releases true}]]
 
-  :deploy-repositories  [["releases" :clojars]]
-
-  :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/clojurescript "1.10.238"]
-                 [clj-time "0.14.3"]
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/clojurescript "1.10.773"]
+                 [clj-time "0.15.2"]
                  [com.andrewmcveigh/cljs-time "0.5.2"]
                  [net.cgrand/macrovich "0.2.1"]
-                 [mvxcvi/puget "1.0.2" :exclusions [brandonbloom/fipp]]
-                 [bigml/fipp "0.6.8"]]
+                 [mvxcvi/puget "1.3.1" :exclusions [brandonbloom/fipp]]
+                 [fipp "0.6.23"]]
 
 
   :plugins [[lein-cljsbuild "1.1.7"]
