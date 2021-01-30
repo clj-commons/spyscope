@@ -1,7 +1,7 @@
 # Spyscope
 
-[![Clojars Project](https://img.shields.io/clojars/v/spyscope.svg)](https://clojars.org/spyscope)
-[![cljdoc badge](https://cljdoc.org/badge/spyscope)](https://cljdoc.org/d/spyscope)
+[![Clojars Project](https://img.shields.io/clojars/v/clj-commons/spyscope.svg)](https://clojars.org/clj-commons/spyscope)
+[![cljdoc badge](https://cljdoc.org/badge/clj-commons/spyscope)](https://cljdoc.org/d/clj-commons/spyscope)
 [![CircleCI](https://circleci.com/gh/clj-commons/spyscope.svg?style=svg)](https://circleci.com/gh/clj-commons/spyscope)
 
 A Clojure(Script) library designed to make it easy to debug single- and multi-threaded applications.
