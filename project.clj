@@ -1,7 +1,7 @@
-(defproject clj-commons/spyscope "0.1.7-SNAPSHOT"
+(defproject clj-commons/spyscope (or (System/getenv "PROJECT_VERSION") "0.1.7-SNAPSHOT")
   :description "Trace-oriented debugging tools for Clojure(Script)"
 
-  :url "http://github.com/dgrnbrg/spyscope"
+  :url "http://github.com/clj-commons/spyscope"
 
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
