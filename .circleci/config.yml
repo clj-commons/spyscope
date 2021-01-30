@@ -52,9 +52,9 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "project.clj" }}
 
-      - run:
-          name: Ensure No Reflection Warnings
-          command: "! lein check 2>&1 | grep 'Reflection warning'"
+#      - run:
+#          name: Ensure No Reflection Warnings
+#          command: "! lein check 2>&1 | grep 'Reflection warning'"
 
       # run tests!
       - run: lein do clean, test
